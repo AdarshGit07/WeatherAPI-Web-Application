@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/d44453f6c0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/weatherStyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top">
+      <h1 class="tem"><%=tem%> ℃</h1>
+      <p class="diff"><i class="fa-solid fa-location-dot fa-2x">  </i><%=  cityName%></p>
+      <!-- <i class="fa-solid fa-location-dot fa-3x"></i> -->
+      <h2 class="stats"><%=desc%></h2>
+      <h3 class="stats">Humidity <%=humidity%>%</h3>
+
+      <img class="imge" src="https://openweathermap.org/img/wn/<%=icon%>@2x.png" alt="err">
+    </div>
+  </body>
+</html>

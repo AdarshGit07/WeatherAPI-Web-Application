@@ -1,0 +1,31 @@
+body{
+  /* background:#FD5D5D; */
+  background-image: url("/css/Untitled.jpeg");
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.imge{
+  /* padding-top: 100px; */
+  height: 20rem;
+  width: 20rem;
+}
+.diff{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+}
+.top{
+  padding-top: 100px;
+  color: black;
+  /* text-align: center; */
+  margin-left: 50px;
+}
+
+.tem{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10rem;
+}
+.stats{
+  font-family: 'Montserrat', sans-serif;
+}
